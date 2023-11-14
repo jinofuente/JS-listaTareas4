@@ -26,3 +26,36 @@ li{
     align-items: center;
     animation: fadeIn 0.5s ease;
 }
+
+li button{
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+#tarea-form{
+    margin-bottom: 20px;
+}
+
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+        transform: translateY(-10px);
+    }to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes  fadeOut{
+    from{
+        opacity: 1;
+        transform: translateY(0);
+    }to{
+        opacity: 0;
+        transform: translateY(-10PX);
+    }
+    
+}

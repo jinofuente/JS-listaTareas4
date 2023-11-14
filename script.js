@@ -18,3 +18,8 @@ function eliminar(tarea){
     const tareaList1 = document.getElementById('tarea-list');
     tareaList1.removeChild(tarea.parentNode);
 }
+
+
+/* agregando el link 
+    https://www.youtube.com/watch?v=JP2PiLRxztQ
+*/
